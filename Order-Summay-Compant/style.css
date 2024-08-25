@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--pale-blue);
+    
+}
+
+.container {
+    width: 350px;
+    height: 580px;
+    margin: 22px auto;
+    background-color: var(--very-pale-blue);
+    border-radius: 12px;
+}
+
+.container .image {
+    background-image: url(./images/illustration-hero.svg);
+    background-position: center;
+    width: 100;
+    height:45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius:12px ; 
+    border-top-right-radius: 12px; 
+    margin-bottom: 12px;  
+}
+
+.container .info {
+    text-align: center;
+    padding: 7px;
+    height: 50%;
+
+}
+
+.container .info .title {
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container .info .text {
+    color: var(--desaturated-blue);
+    line-height: 1.4;
+    margin-bottom: 15px;
+
+}
+
+.container .info .box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: hsla(224, 23%, 55%, 0.452);
+    padding: 0px 5px;
+    border-radius: 25px;
+}
+
+
+.container .info .box .box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .info .box .box-text span:first-child {
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 17px;
+
+}
+
+.container .info .box .box-text span:last-child {
+    color: var(--desaturated-blue);
+}
+
+
+.container .info .box .box-link {
+    color: var(--bright-blue);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.container .info .box .box-link:hover {
+    opacity: 0.5;
+
+
+}
+
+.container .info .buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    border-radius: 12px;
+    border: none;
+    transition: all 0.5s;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.buttons .payement {
+    background-color: var(--bright-blue);
+    padding: 10px 0px;
+    color: var(--very-pale-blue);
+}
+
+.buttons .payement:hover {
+    opacity: 0.5;
+
+}
+
+.buttons .cancel {
+    padding: 6px 0px;
+    color: var(--desaturated-blue);
+    margin-top: 12px;
+
+}
+
+.buttons .cancel:hover {
+    align-content: ;
+    color: var(--dark-blue);
+}
