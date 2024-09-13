@@ -38,11 +38,11 @@ function b1() {
 function a1() {
     var myvar1 = 2;
     console.log(myvar1); //output
-    b();
+    b1();
 }
 var myvar1 = 1;
 console.log(myvar1); //output 
-a();
+a1();
 console.log(myvar1); //output 
 
 // Example 4
