@@ -22,6 +22,9 @@
 p {
   color: #5e5c5c;
 }
+p::selection{
+  color: var(--pink);
+}
 
 h1,
 h3,
