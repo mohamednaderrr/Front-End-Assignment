@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Task</title>
+</head>
+
+<body>
+    <h1>Cookie Task</h1>
+    <div>
+        <label for="cookieName">Cookie Name:</label>
+        <input type="text" id="cookieName" placeholder="Enter cookie name">
+    </div>
+    <div>
+        <br>
+        <label for="cookieValue">Cookie Value:</label>
+        <input type="text" id="cookieValue" placeholder="Enter cookie value">
+    </div>
+    <br>
+    <div>
+        <label for="cookieDays">Cookie Expiration Days:</label>
+        <input type="number" id="cookieDays" placeholder="Enter days" min="1">
+    </div>
+    <br>
+
+    <button onclick="setCookieHandler()">Set Cookie</button>
+    <button onclick="getCookieHandler()">Get Cookie</button>
+    <button onclick="updateCookieHandler()">Update Cookie</button>
+    <button onclick="deleteCookieHandler()">Delete Cookie</button>
+
+    <div id="output"></div>
+
+    <script src="cookies.js"></script>
+</body>
+
+</html>
