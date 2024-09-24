@@ -309,9 +309,7 @@ body footer section .info {
 }
 
 body footer section .info .logo {
-  width: 15%;
-  min-width: 120px;
-  max-width: 160px;
+  
   margin-bottom: 10px;
 }
 
@@ -505,13 +503,10 @@ body footer section .sns i:hover {
 
   body footer form,
   body footer section {
-    width: 85%;
+    width: 95%;
   }
 
-  body footer form {
-    margin-top: 40px;
-    margin-bottom: 30px;
-  }
+
 
   body footer form input {
     width: 100%;
