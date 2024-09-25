@@ -19,11 +19,12 @@
   color: hsl(192, 100%, 9%);
 }
 
+p::selection { 
+  color: var(--pink);
+}
+
 p {
   color: #5e5c5c;
-}
-p::selection{
-  color: var(--pink);
 }
 
 h1,
@@ -278,9 +279,22 @@ body footer form input {
   vertical-align: middle;
 }
 
-body footer form input:focus {
-  border-color: #ff4081;
+body footer form input :valid+p{
+  display: none;
+}
 
+body footer form input:invalid  {
+  border: 2px solid red;
+}
+body footer form p{
+  display:block;
+  margin-top: 2px;
+  padding-left: 2px;
+}
+
+body footer form input :invalid + p  {
+  display:block;
+  color: red;
 }
 
 body footer form button {
@@ -312,7 +326,7 @@ body footer section .info {
 }
 
 body footer section .info .logo {
-  
+
   margin-bottom: 10px;
 }
 
