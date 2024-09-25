@@ -70,7 +70,7 @@ body main .btn {
   border-radius: 30px;
   border: none;
   background-color: var(--pink);
-  box-shadow: 0 2px 4px 4px #ddd;
+  box-shadow: 0px 0px 10px 3px #ddd;
   font-weight: 700;
   color: var(--very-pale-blue);
 }
