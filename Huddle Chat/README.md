@@ -1,9 +1,10 @@
 ## Welcome! 👋
 
-# Task-Landing-Page
-Task-Landing-Page
+# Huddle-Chat-Page
+Huddle-Chat
 ## Demo:
-[https://mohamednaderrr.github.io/Order-Summay-Compant/
+https://mohamednaderrr.github.io/Front-End-Assignment/Huddle%20Chat/index.html
+
 ](https://mohamednaderrr.github.io/Front-End-Assignment/Huddle%20Chat/index.html)## Features:
 Html and CSS web project is an online chat site. You can sign up with your email and try it for free. With this project, I was able to learn @media and use sizes on different screens and devices. It was a great time finishing this project.
 ### See hover states  for interactive elements
