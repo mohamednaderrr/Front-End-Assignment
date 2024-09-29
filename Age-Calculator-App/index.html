@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Age Calculator App</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-flex">
+      <div class="input-container">
+        <span> Day </span>
+        <input type="number" id="day" placeholder="DD">
+        <small class="error-day"></small>
+      </div>
+      <div class="input-container">
+        <span> Month</span>
+        <input type="number" id="month" placeholder="MM">
+        <small class="error-month"></small>
+      </div>
+      <div class="input-container">
+        <span>Year</span>
+        <input type="number" id="year" placeholder="YYYY">
+        <small class="error-year"></small>
+      </div>
+    </div>
+    <button class="sumbit-btn">
+      <img src="./assets/images/icon-arrow.svg" alt="icon-arrow">
+    </button>
+    <div class="output">
+      <h1><span class="output-year">--</span> Years</h1>
+      <h1><span class="output-month">--</span> Months</h1>
+      <h1><span class="output-day">--</span> Days</h1>
+    </div>
+  </div>
+
+  <script src="./JS/jquery-3.7.1.js"></script>
+  <script src="./JS/jquery.js"></script>
+
+  <!-- <script src="java.js"></script> -->
+</body>
+
+</html>
