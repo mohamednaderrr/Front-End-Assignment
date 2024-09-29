@@ -1,8 +1,11 @@
-# Frontend Mentor - Age calculator app
+# Age calculator app
 
 ![Design preview for the Age calculator app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
+
+## Live_Demo:
+https://mohamednaderrr.github.io/Age-Calculator-App/
 
 # Age-Calculator-App
 Age-Calculator-App
@@ -12,6 +15,7 @@ Age-Calculator-App
 Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+---->Mohamed Nader Rashad<-----
 
 Your users should be able to: 
 
@@ -26,9 +30,9 @@ Your users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Accounts On Social Media
-![GitHub]https://github.com/mohamednaderrr
-![Facebook]https://www.facebook.com/profile.php?id=100003506793150
-![LinkedIn]https://www.linkedin.com/in/mohamed-nader-8a1857298/
+![GitHub]https://github.com/mohamednaderrr.
+![Facebook]https://www.facebook.com/profile.php?id=100003506793150.
+![LinkedIn]https://www.linkedin.com/in/mohamed-nader-8a1857298/.
 
 
 
