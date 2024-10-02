@@ -1,0 +1,14 @@
+{
+	"name": "product-list-with-cart-main",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "sass sass/main.scss css/style.css -w"
+	},
+	"author": "George Kandelaki",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"sass": "^1.77.8"
+	}
+}
