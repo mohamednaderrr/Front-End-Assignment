@@ -1,0 +1,95 @@
+<!-- Mohamed Nader Rashad -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icon-add-to-cart.svg" />
+
+	<title> Product List With Cart</title>
+
+	<link href="css/style.css" rel="stylesheet" />
+	<script defer src="js/index.js"></script>
+</head>
+
+<body>
+	<div class="order-confirmed content-disable">
+		<div class="order-confirmed__img-box">
+			<img src="/assets/images/icon-order-confirmed.svg" alt="Image of an complited order"
+				class="order-confirmed__complited-img" />
+		</div>
+
+		<div class="order-confirmed-text">
+
+			<p class="order-confirmed__header">Order Confirmed</h1>
+			<p class="order-confirmed__text">We hope you enjoy your food!</p>
+		</div>
+
+		<div class="order-confirmed__ordered">
+			<div class="order-confirmed__desserts">
+				<div class="order-confirmed__product">
+					<img src="/assets/images/image-baklava-mobile.jpg" alt="Image of the dessert"
+						class="order-confirmed__product-img" />
+
+					<div class="order-confirmed__value">
+						<p class="order-confirmed__name ">
+							Classic Tiramisu
+						</p>
+						<span class="order-confirmed__qnt product__qnt">1x</span>
+						<span class="order-confirmed__price">@ $7.00</span>
+					</div>
+
+					<span class="order-confirmed__product-total">$13.00</span>
+				</div>
+			</div>
+			<div class="order-confirmed__total">
+				<p>Order Total:</p>
+				<strong class="order-confirmed__total-price">$0</strong>
+			</div>
+		</div>
+
+		<a href="" class="btn btn--order">Start a new order</a>
+	</div>
+	<div class="overlay content-disable">&nbsp;</div>
+
+	<main class="main">
+		<div class="main-container">
+			<h1 class="heading-primary">Desserts</h1>
+			<div class="desserts">
+			</div>
+		</div>
+
+		<div class="cart">
+			<h2 class="heading-secondary">
+				Your Cart (<span class="cart__quantity">0</span>)
+			</h2>
+			<div class="cart__content">
+				<div class="cart__products">
+					<div class="cart__img-box">
+						<img src="/assets/images/illustration-empty-cart.svg" alt="Image of an Cake" />
+					</div>
+					<span class="product__text">
+						Your added items will appear here
+					</span>
+				</div>
+
+				<div class="cart__order content-disable">
+					<div class="cart__total">
+						Order Total
+						<strong class="cart__total-price">$0</strong>
+					</div>
+					<div class="cart__delivery-type">
+						<img src="/assets/images/icon-carbon-neutral.svg" alt="Image of an carbon neutral" />
+						This is a <strong>carbon-neutral</strong> delivery
+					</div>
+
+					<a href="#" class="btn btn--order">Confirm Order</a>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+
+</html>
