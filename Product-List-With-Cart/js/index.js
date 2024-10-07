@@ -16,7 +16,7 @@ function getData(url) {
 	});
 }
 
-getData("/data/data.json").then((data) => {
+getData("./data/data.json").then((data) => {
 	dessertsData = data;
 	renderHTML(
 		dessertsContainer,
@@ -46,9 +46,9 @@ function createDessertCardTemplate(data) {
 				.join("-")}">
 					<div class="desserts__img-box">
 						<img src=${obj.image.desktop} class="desserts__img" alt="Image Of An Product">
-						<a class="btn btn--add-to-cart" href="#"><span><img src="/assets/images/icon-add-to-cart.svg" alt="Shopping Cart"></span> Add to Cart</a>
-						<a class="btn btn--increment-qnt content-disable" href="#"><span> <img src="/assets/images/icon-decrement-quantity.svg" alt="Decrement Quantity" class="btn-decrement-qnt"> </span> <span class="desserts__quantity">
-						1</span> <span><img src="/assets/images/icon-increment-quantity.svg" alt="Increment quantity" class="btn-increment-qnt"></span> </a>
+						<a class="btn btn--add-to-cart" href="#"><span><img src="./assets/images/icon-add-to-cart.svg" alt="Shopping Cart"></span> Add to Cart</a>
+						<a class="btn btn--increment-qnt content-disable" href="#"><span> <img src="./assets/images/icon-decrement-quantity.svg" alt="Decrement Quantity" class="btn-decrement-qnt"> </span> <span class="desserts__quantity">
+						1</span> <span><img src="./assets/images/icon-increment-quantity.svg" alt="Increment quantity" class="btn-increment-qnt"></span> </a>
 					</div>
 					<span class="desserts__category">${obj.category}</span>
 					<p class="desserts__name">${obj.name}</p>
@@ -222,7 +222,7 @@ function emptyCartState() {
 	document.querySelector(".cart__products").innerHTML = `
 			<div class="cart__img-box">
 				<img
-					src="/assets/images/illustration-empty-cart.svg"
+					src="./assets/images/illustration-empty-cart.svg"
 					alt="Image of an Cake"
 				/>
 			</div>
